@@ -1,1 +1,4 @@
-# react-js
+# Init Project
+
+# Run command
+npm install
