@@ -10,7 +10,7 @@ function Menu() {
             <div className="menuList">
                 {
                     MenuList.map((menuItem, key) => {
-                        return <MenuItem key={key} image={menuItem.image} name={menuItem.name} price={menuItem.price} />;
+                        return <MenuItem key={key} id={menuItem.id} image={menuItem.image} name={menuItem.name} price={menuItem.price} />;
                     })
                 }
             </div>

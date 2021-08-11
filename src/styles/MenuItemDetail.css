@@ -1,0 +1,21 @@
+.menuItemDetail {
+    width: 100%;
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menuItemDetail_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.menuItemDetail_list > div {
+    padding: 1em 1em 0.6em;
+}
+
+.menuItemDetail_list img {
+    width: 475px;
+    max-width: 100%;
+    height: 350px;
+}
